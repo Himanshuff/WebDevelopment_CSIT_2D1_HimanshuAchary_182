@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online book store</title>
+    <style>
+        .Header {
+            background: orange;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+        
+        .logo {
+            width: 150px;
+            text-align: center;
+        }
+        
+        .logo img {
+            align-items: center;
+            width: 80px;
+            height: 60px;
+        }
+        
+        .title {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .menu {
+            background-color: #ff8737;
+        }
+        
+        .menu a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            justify-content: space-around;
+        }
+        
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            height: 50px;
+            align-items: center;
+        }
+        
+        .main {
+            height: 500px;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .left {
+            width: 200px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            font-size: xx-large;
+        }
+        
+        .left a {
+            text-decoration: none;
+            color: black;
+            font-size: xx-large;
+        }
+        
+        .right {
+            flex: 1;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        
+        .right iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="Header">
+        <div class="logo">
+            <img src="https://www.glbitm.org/Uploads/image/846imguf_LogoGLBajaj.jpg" alt="GL Bajaj Logo">
+        </div>
+        <div class="title">
+            Website name
+        </div>
+    </div>
+    <div class="menu">
+        <a href="home.html" target="content"> Home</a>
+        <a href="login.html">Login</a>
+        <a href="registration.html">Registration</a>
+        <a href="#">Catalog</a>
+        <a href="cart.html">Cart</a>
+    </div>
+    <div class="main">
+        <div class="left">
+
+            <a href="ece.html" target="content"> ECE </a>
+            <a href="civil.html" target="content"> CIVIL</a>
+            <a href="eee.html" target="content"> EEE</a>
+            <a href="cse.html"> CSE</a>
+
+        </div>
+        <div class="right">
+            <iframe src="home.html" name="content">
+
+            </iframe>
+
+        </div>
+    </div>
+
+</html>
